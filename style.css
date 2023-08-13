@@ -304,7 +304,7 @@ section{
     width: 100%;
     height: 100vh;
     top: 200px;
-    left: -400px;
+    left: -300px;
     transform: scaleX(-1) rotate(-10deg);
     animation: reindeer 8s linear forwards;
     animation-delay: 2.8s;
@@ -350,11 +350,11 @@ section{
     position: absolute;
     width: 150px;
     height: auto;
-    top: 380px;
+    top: 350px;
     left: 70px;
     opacity: 0;
     animation: noelGif 2s forwards;
-    animation-delay: 10s;
+    animation-delay: 5s;
 }
 @keyframes noelGif{
     0%{
@@ -383,7 +383,7 @@ section{
     position: absolute;
     width: 120px;
     height: auto;
-    top: 400px;
+    top: 300px;
     right: -150px;
     z-index: 10000000;
     animation: noelGift2 10s linear infinite!important;
@@ -438,7 +438,7 @@ section{
     cursor: pointer;
     animation: boxGift 5s forwards;
     z-index: 100000000;
-    animation-delay: 15s;
+    animation-delay: 5s;
 }
 @keyframes boxGift{
     0%{
@@ -447,11 +447,11 @@ section{
     }
     30%, 40%{
         left: 50%;
-        transform: translate(-50%, 450px) rotate(45deg);
+        transform: translate(-50%, 350px) rotate(45deg);
     }
     50%,100%{
         left: 50%;
-        transform: translate(-50%, 450px) rotate(0deg);
+        transform: translate(-50%, 350px) rotate(0deg);
         transform-origin: bottom right;
     }
 }
@@ -637,7 +637,7 @@ section{
     border-radius: 50%;
     background: rgb(0, 0, 0);
     filter: blur(10px);
-    top: 540px;
+    top: 340px;
     left: 50%;
     transform: translateX(-50%) rotateX(20deg);
     animation: shadowBoxgift 3s forwards;

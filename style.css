@@ -805,7 +805,7 @@ section{
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 200px;
     height: 200px;
     z-index: 10;
 }
@@ -816,7 +816,7 @@ section{
     filter: drop-shadow(0 2px 1px #333);
 }
 .image-decorate .pineTree img{
-    width: 100px;
+    width: 200px;
 }
 .image-decorate .decorate{
     position: absolute;
@@ -895,7 +895,7 @@ section{
     z-index: -1;
 }
 .snowman img{
-    width: 100px;
+    width: 120px;
 }
 marquee{
     position: absolute;

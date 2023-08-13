@@ -795,18 +795,18 @@ section{
 }
 .image-santa-content{
     position: relative;
-    left: 187px;
+    left: 145px;
     width: 100%;
 }
 .image-santa-content img{
-    width: 200px;
+    width: 150px;
 }
 .image-decorate{
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 400px;
+    width: 450px;
+    height: 355px;
     z-index: 10;
 }
 .image-decorate .pineTree{
@@ -839,7 +839,7 @@ section{
     width: 80px;
 }
 .bell img:nth-child(2){
-    transform: translateX(580px) scaleX(-1);
+    transform: translateX(380px) scaleX(-1);
 }
 .bell1{
     position: absolute;

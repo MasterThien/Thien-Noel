@@ -760,7 +760,7 @@ section{
 .text2 h2:nth-child(1){
     padding: 5px 5px 0px 5px;
     font-size: 22px;
-    transform: translateX(-500px);
+    transform: translateX(-300px);
     font-family: 'Dancing Script', cursive;
 }
 .box-content:hover #text2{
@@ -769,7 +769,7 @@ section{
 }
 @keyframes contenttext1{
     0%{
-        transform: translateX(-500px);
+        transform: translateX(-300px);
     }
     100%{
         transform: translateX(0px);
@@ -778,7 +778,7 @@ section{
 .text2 h2:nth-child(2){
     padding: 0px 5px 0px 5px;
     font-size: 22px;
-    transform: translateX(500px);
+    transform: translateX(300px);
     font-family: 'Dancing Script', cursive;
 }
 .box-content:hover #text3{
@@ -787,7 +787,7 @@ section{
 }
 @keyframes contenttext2{
     0%{
-        transform: translateX(500px);
+        transform: translateX(300px);
     }
     100%{
         transform: translateX(0px);
@@ -795,11 +795,11 @@ section{
 }
 .image-santa-content{
     position: relative;
-    left: 200px;
+    left: 100px;
     width: 100%;
 }
 .image-santa-content img{
-    width: 250px;
+    width: 100px;
 }
 .image-decorate{
     position: absolute;
@@ -895,7 +895,7 @@ section{
     z-index: -1;
 }
 .snowman img{
-    width: 120px;
+    width: 80px;
 }
 marquee{
     position: absolute;

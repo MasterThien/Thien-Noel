@@ -684,7 +684,7 @@ section{
     background: rgba(0, 0, 0, 0.7);
     transform: scale(0.01);
     visibility: hidden;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .box-content.active{
     opacity: 1;
@@ -704,8 +704,8 @@ section{
 }
 .content1{
     position: absolute;
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     background-image: radial-gradient(circle farthest-corner at center, #f9edf3 10%, #ffd3ee 100%);
     border-radius: 10px 70px 10px 70px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
@@ -805,8 +805,8 @@ section{
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 255px;
+    width: 250px;
+    height: 200px;
     z-index: 10;
 }
 .image-decorate .pineTree{

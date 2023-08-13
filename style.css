@@ -109,7 +109,7 @@ body{
 }
 .box-bgr .christmas-tree img{
     position: absolute;
-    width: 500px;
+    width: 300px;
     /* top: 50%; */
 }
 .box-text-noel{
@@ -118,17 +118,17 @@ body{
 }
 .box-bgr .box-text-noel .text-noel{
     position: relative;
-    width: 350px;
+    width: 250px;
     height: 100vh;
     top: 5%;
     left: 50%;
-    transform: translate(-50%, -400px);
+    transform: translate(-50%, -300px);
     animation: textnoel 3s ease-in-out forwards;
     transition: transform 1s;
 }
 @keyframes textnoel{
     0%{
-        transform: translate(-50%, -400px);
+        transform: translate(-50%, -300px);
     }
     20%{
         transform: translate(-50%, 90px);
@@ -160,13 +160,13 @@ body{
     }
 }
 .box-bgr .box-text-noel .text-noel img{
-    width: 350px;
+    width: 250px;
 }
 .box-bgr .box-text-noel span{
     position: absolute;
     content: '';
     width: 3px;
-    height: 300px;
+    height: 270px;
     background: #333;
     top: 0;
     margin-top: -210px;
@@ -177,7 +177,7 @@ body{
 }
 @keyframes textnoel1{
     0%{
-        transform: translate(-50%, -400px);
+        transform: translate(-50%, -300px);
     }
     20%{
         transform: translate(-50%, 90px);
@@ -209,14 +209,14 @@ body{
 }
 .house{
     position: absolute;
-    width: 450px;
+    width: 300px;
     height: 100vh;
     top: 15%;
     right: 5%;
 }
 .house img{
     position: absolute;
-    width: 450px;
+    width: 300px;
 }
 section{
     position: absolute;
@@ -237,7 +237,7 @@ section{
 }
 .santa1{
     position: absolute;
-    width: 500px;
+    width: 300px;
     height: auto;
     top: 50%;
     left: 50%;
@@ -267,7 +267,7 @@ section{
 }
 .santa1 .image-santa-hand{
     position: absolute;
-    width: 500px;
+    width: 300px;
     z-index: 1;
     transform: translate(0px, 10px);
     animation: santa-hand 0.7s infinite linear;
@@ -294,7 +294,7 @@ section{
 }
 .box-reindeer{
     position: relative;
-    width: 500px;
+    width: 300px;
     height: 100vh;
     top: 0;
     left: 0;
@@ -304,7 +304,7 @@ section{
     width: 100%;
     height: 100vh;
     top: 200px;
-    left: -600px;
+    left: -400px;
     transform: scaleX(-1) rotate(-10deg);
     animation: reindeer 8s linear forwards;
     animation-delay: 2.8s;
@@ -312,7 +312,7 @@ section{
 @keyframes reindeer{
     0%{
         top: 200px;
-        left: -600px;
+        left: -400px;
         transform: scaleX(-1) rotate(5deg);
     }
     25%{
@@ -327,7 +327,7 @@ section{
     }
     75%{
         top: -137.5px;
-        left: 750px;
+        left: 550px;
         transform: scaleX(-1) scale(0.4) rotate(5deg);
     }
     100%{

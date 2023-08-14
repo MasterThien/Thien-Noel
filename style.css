@@ -109,7 +109,7 @@ body{
 }
 .box-bgr .christmas-tree img{
     position: absolute;
-    width: 300px;
+    width: 250px;
     /* top: 50%; */
 }
 .box-text-noel{
@@ -805,8 +805,8 @@ section{
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     z-index: 10;
 }
 .image-decorate .pineTree{
@@ -816,7 +816,7 @@ section{
     filter: drop-shadow(0 2px 1px #333);
 }
 .image-decorate .pineTree img{
-    width: 130px;
+    width: 100px;
 }
 .image-decorate .decorate{
     position: absolute;
@@ -827,7 +827,7 @@ section{
     z-index: 10000;
 }
 .image-decorate .decorate img{
-    width: 150px;
+    width: 250px;
 }
 .bell{
     position: absolute;
@@ -839,14 +839,14 @@ section{
     width: 80px;
 }
 .bell img:nth-child(2){
-    transform: translateX(180px) scaleX(-1);
+    transform: translateX(120px) scaleX(-1);
 }
 .bell1{
     position: absolute;
     top: -20px;
 }
 .bell1 img{
-    width: 80px;
+    width: 100px;
 }
 .bell1 img:nth-child(2){
     transform: translateX(-5px);
@@ -895,7 +895,7 @@ section{
     z-index: -1;
 }
 .snowman img{
-    width: 180px;
+    width: 70px;
 }
 marquee{
     position: absolute;

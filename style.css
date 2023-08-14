@@ -795,7 +795,7 @@ section{
 }
 .image-santa-content{
     position: relative;
-    left: 100px;
+    left: 120px;
     width: 100%;
 }
 .image-santa-content img{
@@ -816,7 +816,7 @@ section{
     filter: drop-shadow(0 2px 1px #333);
 }
 .image-decorate .pineTree img{
-    width: 100px;
+    width: 80px;
 }
 .image-decorate .decorate{
     position: absolute;
@@ -895,7 +895,7 @@ section{
     z-index: -1;
 }
 .snowman img{
-    width: 70px;
+    width: 150px;
 }
 marquee{
     position: absolute;

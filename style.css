@@ -760,7 +760,7 @@ section{
 .text2 h2:nth-child(1){
     padding: 5px 5px 0px 5px;
     font-size: 22px;
-    transform: translateX(-300px);
+    transform: translateX(-500px);
     font-family: 'Dancing Script', cursive;
 }
 .box-content:hover #text2{
@@ -769,7 +769,7 @@ section{
 }
 @keyframes contenttext1{
     0%{
-        transform: translateX(-300px);
+        transform: translateX(-500px);
     }
     100%{
         transform: translateX(0px);
@@ -778,7 +778,7 @@ section{
 .text2 h2:nth-child(2){
     padding: 0px 5px 0px 5px;
     font-size: 22px;
-    transform: translateX(300px);
+    transform: translateX(500px);
     font-family: 'Dancing Script', cursive;
 }
 .box-content:hover #text3{
@@ -787,7 +787,7 @@ section{
 }
 @keyframes contenttext2{
     0%{
-        transform: translateX(300px);
+        transform: translateX(500px);
     }
     100%{
         transform: translateX(0px);
@@ -816,7 +816,7 @@ section{
     filter: drop-shadow(0 2px 1px #333);
 }
 .image-decorate .pineTree img{
-    width: 200px;
+    width: 130px;
 }
 .image-decorate .decorate{
     position: absolute;
@@ -827,7 +827,7 @@ section{
     z-index: 10000;
 }
 .image-decorate .decorate img{
-    width: 200px;
+    width: 150px;
 }
 .bell{
     position: absolute;
@@ -839,20 +839,20 @@ section{
     width: 80px;
 }
 .bell img:nth-child(2){
-    transform: translateX(380px) scaleX(-1);
+    transform: translateX(180px) scaleX(-1);
 }
 .bell1{
     position: absolute;
     top: -20px;
 }
 .bell1 img{
-    width: 150px;
+    width: 80px;
 }
 .bell1 img:nth-child(2){
     transform: translateX(-5px);
 }
 .bell1 img:nth-child(3){
-    transform: translateX(120px);
+    transform: translateX(80px);
 }
 .bell1 img:nth-child(4){
     transform: translateX(70px);
@@ -895,7 +895,7 @@ section{
     z-index: -1;
 }
 .snowman img{
-    width: 80px;
+    width: 180px;
 }
 marquee{
     position: absolute;

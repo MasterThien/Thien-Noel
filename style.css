@@ -836,7 +836,7 @@ section{
     z-index: 1000;
 }
 .bell img{
-    width: 80px;
+    width: 180px;
 }
 .bell img:nth-child(2){
     transform: translateX(120px) scaleX(-1);
@@ -895,7 +895,7 @@ section{
     z-index: -1;
 }
 .snowman img{
-    width: 70px;
+    width: 270px;
 }
 marquee{
     position: absolute;
